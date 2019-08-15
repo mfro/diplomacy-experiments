@@ -1,0 +1,72 @@
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        svg {
+            flex: 0 0 auto;
+            /* width: 100vw; */
+            height: 100vh;
+            /* position: absolute; */
+        }
+
+        canvas {
+        }
+
+        g.country.land {
+            fill: #98674c;
+            stroke: black;
+        }
+
+        g.country.water {
+            fill: #5C6BC0;
+            stroke: black;
+            stroke-width: 0.8px;
+        }
+
+        g.active {
+            /* filter: url(#dropshadow); */
+        }
+
+        g.adjacent {
+            fill: #388e3c;
+        }
+
+        g.landmass {
+            opacity: 0.6;
+            filter: url(#landmass-shadow);
+        }
+
+        g.deadzones {
+            fill: white;
+            stroke: black;
+        }
+
+        g.hidden {
+            opacity: 0;
+        }
+
+
+        g.assignment {
+            fill: blue;
+            stroke: red;
+        }
+
+        .outline {
+            fill: none;
+            stroke: red;
+            stroke-width: 1.2px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        button {
+            font-size: 1.5em;
+        }
+    </style>
+
+    <script src="main.js"></script>
+</body>
